@@ -1,0 +1,24 @@
+{
+  "name": "inception",
+  "version": "1.0.0",
+  "description": "learn react",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haha-harshit/testReact.git"
+  },
+  "keywords": [
+    "learn",
+    "react",
+    "harshit"
+  ],
+  "author": "Harshit Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haha-harshit/testReact/issues"
+  },
+  "homepage": "https://github.com/haha-harshit/testReact#readme"
+}
