@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/haha-harshit/testReact/issues"
   },
-  "homepage": "https://github.com/haha-harshit/testReact#readme"
+  "homepage": "https://github.com/haha-harshit/testReact#readme",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
 }
