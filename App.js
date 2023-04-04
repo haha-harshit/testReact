@@ -24,7 +24,7 @@ const jsxHeading = <h1>Hey from JSX</h1>;
 
 const HeadingComponent = () => (
   <div id="container">
-    <h1 className="heading">Functional Component</h1>
+    <h1 className="heading">Hola Component</h1>
   </div>
 );
 
