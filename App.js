@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
 // this is core of react
 // at core react create elements which is javascript object and then it is rendered to DOM as html
