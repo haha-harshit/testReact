@@ -22,8 +22,11 @@ import ReactDOM from "react-dom/client";
 
 const jsxHeading = <h1>Hey from JSX</h1>;
 
+const Title = () => <h1 className="title">Hey React</h1>;
+
 const HeadingComponent = () => (
   <div id="container">
+    <Title />
     <h1 className="heading">Hola Component</h1>
   </div>
 );
