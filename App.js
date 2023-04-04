@@ -22,6 +22,12 @@ import ReactDOM from "react-dom";
 
 const jsxHeading = <h1>Hey from JSX</h1>;
 
+const HeadingComponent = () => (
+  <div id="container">
+    <h1 className="heading">Functional Component</h1>
+  </div>
+);
+
 const heading = React.createElement("h1", {}, "hey from react!");
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(jsxHeading);
+root.render(<HeadingComponent />);
