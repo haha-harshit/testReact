@@ -36,7 +36,11 @@ const TitleTest = function () {
 // component composition --> passing one component to another component as prop!
 const HeadingComponent = () => (
   <div id="container">
+    {/* three ways of using component */}
+    {Title()}
     <Title />
+    <Title></Title>
+
     <TitleTest />
     <h1 className="heading">Hola Component</h1>
   </div>
