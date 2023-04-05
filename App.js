@@ -24,9 +24,20 @@ const jsxHeading = <h1>Hey from JSX</h1>;
 
 const Title = () => <h1 className="title">Hey React</h1>;
 
+const TitleTest = function () {
+  return (
+    <>
+      <h2>sub heading</h2>
+      <p>paragraph</p>
+    </>
+  );
+};
+
+// component composition --> passing one component to another component as prop!
 const HeadingComponent = () => (
   <div id="container">
     <Title />
+    <TitleTest />
     <h1 className="heading">Hola Component</h1>
   </div>
 );
